@@ -1,0 +1,11 @@
+Nouveau:
+	efface les 2 champs de texte: le code et le résultat de son analyse
+Ouvrir:	
+	si l'utilisateur n'a pas cliqué sur annuler, les 2 champs de texte deviennent vides, ensuite le champs de code va être populé par le contenu du fichier ouvert
+Enregistrer:
+	permet de sauvegarder le contenu affiché dans la section du code dans un fichier
+Compiler:
+	permet d'envoyer le code affiché dans la section du code vers l'analyseur et de récupérer le résultat de l'analyse pour l'afficher dans l'interface de l'application.
+	l'analyse se fait ainsi:
+	1/ le contenu de la section de code va être sauvegardé dans un fichier 'code.pas'
+	2/ le fichier 'code.pas' va être ensuite lu par 'analyseur.exe' qui va l'analyser et afficher le résultat de cette analyse qui va être affiché sur l'interface graphique de l'application, la fin de l'analyse est signalée par un son
