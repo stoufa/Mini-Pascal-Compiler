@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>531</width>
+    <height>371</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>compilateur pascal - ISI - 2016</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="resources.qrc">
+    <normaloff>:/img/img/icone.jpg</normaloff>:/img/img/icone.jpg</iconset>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QPushButton" name="nouveau_btn">
+        <property name="toolTip">
+         <string>Nouveau</string>
+        </property>
+        <property name="text">
+         <string>Nouveau</string>
+        </property>
+        <property name="icon">
+         <iconset resource="resources.qrc">
+          <normaloff>:/icones/icones/nouveau.PNG</normaloff>:/icones/icones/nouveau.PNG</iconset>
+        </property>
+        <property name="shortcut">
+         <string>N</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="ouvrir_btn">
+        <property name="toolTip">
+         <string>Ouvrir</string>
+        </property>
+        <property name="text">
+         <string>Ouvrir</string>
+        </property>
+        <property name="icon">
+         <iconset resource="resources.qrc">
+          <normaloff>:/icones/icones/ouvrir.PNG</normaloff>:/icones/icones/ouvrir.PNG</iconset>
+        </property>
+        <property name="shortcut">
+         <string>O</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="enregistrer_btn">
+        <property name="toolTip">
+         <string>Enregistrer sous</string>
+        </property>
+        <property name="text">
+         <string>Enregistrer sous</string>
+        </property>
+        <property name="icon">
+         <iconset resource="resources.qrc">
+          <normaloff>:/icones/icones/sauvegarder.PNG</normaloff>:/icones/icones/sauvegarder.PNG</iconset>
+        </property>
+        <property name="shortcut">
+         <string>E</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="compiler_btn">
+        <property name="toolTip">
+         <string>Compiler</string>
+        </property>
+        <property name="text">
+         <string>Compiler</string>
+        </property>
+        <property name="icon">
+         <iconset resource="resources.qrc">
+          <normaloff>:/icones/icones/compiler.PNG</normaloff>:/icones/icones/compiler.PNG</iconset>
+        </property>
+        <property name="shortcut">
+         <string>C</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="a_propos_btn">
+        <property name="toolTip">
+         <string>A propos</string>
+        </property>
+        <property name="text">
+         <string>A propos</string>
+        </property>
+        <property name="icon">
+         <iconset resource="resources.qrc">
+          <normaloff>:/icones/icones/information.PNG</normaloff>:/icones/icones/information.PNG</iconset>
+        </property>
+        <property name="shortcut">
+         <string>A</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="quitter_btn">
+        <property name="toolTip">
+         <string>Quitter</string>
+        </property>
+        <property name="text">
+         <string>Quitter</string>
+        </property>
+        <property name="icon">
+         <iconset resource="resources.qrc">
+          <normaloff>:/icones/icones/quitter.png</normaloff>:/icones/icones/quitter.png</iconset>
+        </property>
+        <property name="shortcut">
+         <string>Q</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>Code</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="code_plainTextEdit">
+        <property name="plainText">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>Exécution</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPlainTextEdit" name="analysisOutput_plainTextEdit">
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>quitter_btn</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>675</x>
+     <y>19</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>702</x>
+     <y>5</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

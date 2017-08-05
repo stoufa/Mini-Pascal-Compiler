@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/icones">
+        <file>icones/compiler.PNG</file>
+        <file>icones/information.PNG</file>
+        <file>icones/nouveau.PNG</file>
+        <file>icones/ouvrir.PNG</file>
+        <file>icones/quitter.png</file>
+        <file>icones/sauvegarder.PNG</file>
+    </qresource>
+    <qresource prefix="/img">
+        <file>img/icone.jpg</file>
+    </qresource>
+</RCC>
