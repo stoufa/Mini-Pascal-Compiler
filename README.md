@@ -6,4 +6,4 @@ J'ai utilisé `flex` pour générer l'analyseur lexical, `bison` pour générer 
 Tous les détails de la réalisation de ce projet sont dans le compte rendu accompagné :)
 ce mini-projet est fait en 2016 dans le cadre d'un cours de *Techniques de compilation* destiné aux étudiants de la 1ére année ingénieur à l'ISI ( Institut Supérieur d'Informatique )
 
-![screenshot](https://raw.githubusercontent.com/stoufa/Mini-Compilateur-Pascal/master/screenshots/5.png)
+![screenshot](https://raw.githubusercontent.com/stoufa/Mini-Compilateur-Pascal/master/compilateur-pascal.gif)
